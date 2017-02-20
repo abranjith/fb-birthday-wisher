@@ -1,0 +1,9 @@
+[BROWSER_SECTION]
+url = https://www.facebook.com/login.php
+username = username
+password = password
+name_of_the_logged_in_user = user name
+message = Happy Birthday... Have an awesome day :-)
+
+[SCHEDULE_SECTION]
+daily_schedule_hours = 1
