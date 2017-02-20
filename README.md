@@ -1,6 +1,6 @@
 # fb-birthday-wisher
 
-A tool that logs into your facebook account and wishes everyone (who has birthday on that day) with your message
+A tool that logs into your facebook account and wishes everyone (your friends who have birthday on that day) with your message
 
 PREREQUISITE:-
 Python - You will need python 2.7. 
@@ -13,10 +13,10 @@ Use the same folder structure as in the project
 
 CONFIGURATION:-
 Before running the program, make sure to update Config.txt under config directory
-BROWSER_SECTION - You can keep the url. Feel free to update airport information and dates. This tool runs through all the dates mentioned here (from and to dates are separated by "-" and multiple dates are separated by ";"). Make sure dates are >= current date
+BROWSER_SECTION - You can keep the url. Update username, password and message you would want to wish your friends. name_of_the_logged_in_user is logged in user's name used to validate if login is successful
 
-SCHEDULE_SECTION - once you trigger the script, it runs daily and sends message at the exact hours mentioned (currently at 1 AM which is midnight)
+SCHEDULE_SECTION - once you trigger the script, it runs daily and sends message at the exact hours mentioned (currently set at 1 AM)
 
 RUN:-
 Execute crawler.py (with command prompt you would enter- python crawler.py)
-You can also schedule crawler.py as a task that is executed by your OS
+You can also schedule crawler.py as a task that is executed by your OS (for windows this can be done with windows task scheduler)
